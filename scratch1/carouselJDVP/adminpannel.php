@@ -90,14 +90,22 @@
             background-color: #45a049;
         }
 
-        .btn-export {
+        .btn-reset {
             background-color: #fff;
             color: #333;
             border: 1px solid #ccc;
         }
 
-        .btn-export:hover {
+        .btn-reset:hover {
             background-color: #f5f5f5;
+        }
+
+        .btn-delete {
+            background-color: #f44336;
+            color: white;
+        }
+        .btn-delete:hover {
+            background-color: #da190b;
         }
 
         /* Main Content Styles */
@@ -236,7 +244,7 @@
 
                 <div class="form-group">
                     <label for="PRODUCT_IMAGE:">PRODUCT IMAGE:</label>
-                    <input type="file" name="product_image" accept="image/png, image/jpeg, image/gif" required>
+                    <input type="file" name="product_image" accept="image/png, image/jpeg, image/gif" >
                 </div>
 
                 <div class="form-group">
@@ -252,8 +260,9 @@
 
                 <div class="button-group">
                     <input type="submit"  class="btn btn-add" name="add" value="Add Product">
-                     <!-- <input type="submit"  class="btn btn-update" name="update" value="Update"> -->
-                    <input type="reset" class="btn btn-export" name="reset" value="Reset">
+                     <input type="submit"  class="btn btn-update" name="update" value="Update">
+                    <input type="reset" class="btn btn-reset" name="reset" value="Reset">
+                    <input type="submit"  class="btn btn-delete" name="delete" value="Delete">
                 </div>
             </form>
         </aside>
