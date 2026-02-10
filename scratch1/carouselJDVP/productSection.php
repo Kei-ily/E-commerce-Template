@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Shop</title>
     <link href="custom.css" rel="stylesheet">
-    
+     <link rel="icon" href="HompageImg/logoImg.png">
     <style>
               /* Hero Section */
         .hero {
